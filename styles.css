@@ -20,6 +20,40 @@ nav {
   align-items: center;
  background: transparent;
 }
+/* Sign In/Sign Up buttons */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-right: -45rem; 
+}
+
+.nav-buttons button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* Adjust hamburger menu position */
+.ham-menu {
+  margin-left: 0; 
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .nav-buttons {
+    display: none; /* Hide buttons on small screens */
+  }
+}
+
 
 .ham-menu {
   height: 50px;
