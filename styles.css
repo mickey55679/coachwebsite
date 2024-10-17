@@ -173,11 +173,10 @@ nav {
  border: 1px solid black;
  }
 a.cta-button{
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     padding: 10px;
-    background-color: black;
     text-decoration: none;
-    color: #F46C12;
+    color: var(--primary-color);
 
 }
 a.cta-button:hover, a.cta-button:focus {
