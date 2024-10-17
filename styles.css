@@ -1,6 +1,12 @@
-/* General Styles */
-
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+}
+html {
+     background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
 /* Logo */
 .logo {
   width: 100px;
@@ -13,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-between; /* Space between logo and hamburger menu */
   align-items: center;
-  background-color: rgb(34, 37, 49);
+ background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 
 .ham-menu {
@@ -27,7 +33,7 @@ nav {
 .ham-menu span {
   height: 5px;
   width: 100%;
-  background-color: blue;
+  background-color: black;
   border-radius: 25px;
   position: absolute;
   left: 50%;
@@ -63,7 +69,7 @@ nav {
 
 /* Off-screen menu */
 .off-screen-menu {
-  background-color: rgb(34, 37, 49);
+ background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
   height: 100vh;
   width: 100%;
   max-width: 450px;
@@ -96,7 +102,7 @@ nav {
  .ham-menu span{
     height: 5px;
     width: 100%;
-    background-color: blue;
+    background-color: black;
     border-radius: 25px;
     position: absolute;
     top: 50%;
