@@ -10,12 +10,27 @@
   padding: 0;
 }
 body{
- min-height: 100vh;  
- background-image: url('./assets/images/womanholdingbell.jpg');
+ min-height: 100vh;
+ background: var(--fourth-color);
+ /* background-image: url('./assets/images/womanholdingbell.jpg'); */
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image-container {
+  width: 50vw; /* Half of the viewport width */
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('./assets/images/womanholdingbell.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute; /* Allows positioning */
+  right: 0; /* Align the container to the right side */
+  top: 0;
+  z-index: 1;
+  opacity: 50%;
+ 
 }
 nav{
   background-color: white;
