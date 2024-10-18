@@ -28,8 +28,9 @@ body{
   position: absolute; /* Allows positioning */
   right: 0; /* Align the container to the right side */
   top: 0;
-  z-index: 1;
   opacity: 50%;
+  z-index: 0;
+  pointer-events: none;
  
 }
 nav{
