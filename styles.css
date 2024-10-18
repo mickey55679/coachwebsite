@@ -1,4 +1,6 @@
 :root {
     --primary-color: #F46C12;
     --secondary-color: 	#FFFFFF;
+    --third-color: black;
+    --fourth-color: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
 }
