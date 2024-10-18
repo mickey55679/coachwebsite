@@ -69,6 +69,12 @@ nav li:first-child{
 .menu-button{
   display: none;
 }
+.menu-image {
+    width: 100px;          /* Adjust the size of the image */
+    height: auto;          /* Maintains the aspect ratio */
+    border-radius: 5px;    /* Adds slight rounding to the image corners */
+    transition: transform 0.3s ease; /* Adds a smooth animation */
+}
 @media(max-width: 800px){
   .hideOnMobile{
     display: none;
