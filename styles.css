@@ -3,6 +3,7 @@
     --secondary-color: 	#FFFFFF;
     --third-color: black;
     --fourth-color: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+    --fifth-color: #f0f0f0;
 }
 *{
   margin: 0;
@@ -32,4 +33,15 @@ nav li{
 }
 nav a{
   height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--third-color);
+}
+nav a:hover{
+  background-color: var(--fifth-color);
+}
+nav li:first-child{
+  margin-right: auto;
 }
