@@ -107,6 +107,14 @@ nav li:first-child{
 .login-logout{
   padding: 10px;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+  z-index: 999;
+   background-color: transparent;
 }
+/* @media(max-width: 800px){
+  .login-logout{
+   z-index: 999;
+   background-color: transparent;
+  }
+} */
 
