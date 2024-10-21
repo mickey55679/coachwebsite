@@ -85,7 +85,7 @@ nav li:first-child {
   width: 100%;
 }
 
-.menu-button {
+.nabar-toggler {
 display: none;
  border: none;
 }
@@ -101,7 +101,7 @@ display: none;
     display: none;
   }
 
-  .menu-button {
+  .nabar-toggler {
     display: block;
   }
 }
