@@ -1,52 +1,51 @@
 :root {
-    --primary-color: #F46C12;
-    --secondary-color: 	#FFFFFF;
-    --third-color: black;
-    --fourth-color: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
-    --fifth-color: #f0f0f0;
+  --primary-color: #F46C12;
+  --secondary-color: #FFFFFF;
+  --third-color: black;
+  --fourth-color: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+  --fifth-color: #f0f0f0;
 }
-*{
-  margin: 10;
+* {
+  margin: 10px;
   padding: 0;
 }
-body{
- min-height: 100vh;
- background: var(--fourth-color);
- background-size: cover;
- background-repeat: no-repeat;
- background-position: center;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  min-height: 100vh;
+  background: var(--fourth-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .image-container {
-  width: 50vw; 
-  height: 100vh; 
+  width: 50vw;
+  height: 100vh;
   background-image: url('./assets/images/womanholdingbell.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  right: 0; 
+  right: 0;
   top: 0;
   opacity: 50%;
   z-index: 0;
   pointer-events: none;
- 
 }
-/* nav{
-  background-color: white;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1) ;
-} */
-nav ul{
+
+nav ul {
   width: 100%;
   list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-nav li{
+
+nav li {
   height: 50px;
 }
-nav a{
+
+nav a {
   height: 100%;
   padding: 0 30px;
   text-decoration: none;
@@ -54,18 +53,20 @@ nav a{
   align-items: center;
   color: var(--third-color);
 }
-nav a:hover{
+
+nav a:hover {
   background-color: var(--fifth-color);
 }
-nav li:first-child{
+
+nav li:first-child {
   margin-right: auto;
 }
-.sidebar{
+
+.sidebar {
   position: fixed;
   top: 0;
   right: 0;
   height: 100vh;
-  /* width: 250px; */
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
@@ -74,43 +75,48 @@ nav li:first-child{
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
 
-}
-.sidebar li{
+.sidebar li {
   width: 100%;
 }
-.sidebar a{
+
+.sidebar a {
   width: 100%;
 }
-.menu-button{
+
+.menu-button {
   display: none;
 }
+
 .menu-image {
-    width: 100px;       
-    border-radius: 5px;   
-    transition: transform 0.3s ease; 
+  width: 100px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
 }
-@media(max-width: 800px){
-  .hideOnMobile{
+
+@media (max-width: 800px) {
+  .hideOnMobile {
     display: none;
   }
-  .menu-button{
+
+  .menu-button {
     display: block;
   }
 }
-@media(max-width: 400px){
-  .sidebar{
+
+@media (max-width: 400px) {
+  .sidebar {
     width: 100%;
     margin: 0;
   }
 }
-.login-logout{
+
+.login-logout {
   padding: 10px;
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
   z-index: 999;
-   background-color: transparent;
-   cursor: pointer;
+  background-color: transparent;
+  cursor: pointer;
 }
-
-
