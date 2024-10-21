@@ -110,11 +110,7 @@ nav li:first-child{
   border: 2px solid var(--primary-color);
   z-index: 999;
    background-color: transparent;
+   cursor: pointer;
 }
-/* @media(max-width: 800px){
-  .login-logout{
-   z-index: 999;
-   background-color: transparent;
-  }
-} */
+
 
