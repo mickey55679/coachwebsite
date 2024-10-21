@@ -86,7 +86,8 @@ nav li:first-child {
 }
 
 .menu-button {
-  display: none;
+display: none;
+ border: none;
 }
 
 .menu-image {
