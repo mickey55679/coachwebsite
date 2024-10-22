@@ -8,8 +8,8 @@
 
    --white-color: #fff;
     --dark-color: #252525;
-    --primary-color: #3b141c;
-    --secondary-color: #f3961c;
+    /* --primary-color: #3b141c; */
+    /* --secondary-color: #f3961c; */
     --light-pink-color: #faf4f5;
     --medium-gray-color: #ccc;
 
@@ -167,4 +167,29 @@ h1{
   z-index: 999;
   background-color: transparent;
   cursor: pointer;
+}
+/* content section  */
+h2{
+  text-align: center;
+}
+.content {
+  padding: 50px 0;
+  background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.video-box {
+  background-color: #333;
+  padding: 50px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
