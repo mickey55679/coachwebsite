@@ -171,6 +171,10 @@ h1{
 /* content section  */
 h2{
   text-align: center;
+  color: var(--primary-color)
+}
+p{
+  color: black;
 }
 .content {
   padding: 50px 0;
@@ -178,18 +182,29 @@ h2{
 }
 .content-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap; /* Ensures content stacks on small screens */
   gap: 20px;
-  text-align: center;
+  text-align: left;
+}
+.text-box {
+  max-width: 500px;
+  flex: 1;
+  padding: 20px;
 }
 .video-box {
-  background-color: #333;
-  padding: 50px;
-  width: 200px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  flex: 1;
+  max-width: 600px;
+  padding: 0;
+}
+.video-box video {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Keeps the aspect ratio of the video */
+}
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack video and text on smaller screens */
+  }
 }
