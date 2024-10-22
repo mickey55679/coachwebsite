@@ -187,6 +187,7 @@ p{
   flex-wrap: wrap; /* Ensures content stacks on small screens */
   gap: 20px;
   text-align: left;
+  height: 100vh;
 }
 .text-box {
   max-width: 500px;
