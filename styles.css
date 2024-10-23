@@ -32,7 +32,6 @@
 
 body {
   min-height: 100vh;
-  /* background: var(--fourth-color); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -156,8 +155,8 @@ h1{
   font-family: 'Miniver', sans-serif;
 }
 
-.cta-button {
-  padding: 10px;
+.cta-button-one {
+  padding: 20px;
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
   z-index: 999;
@@ -175,7 +174,6 @@ p{
 }
 .content {
   padding: 50px 0;
-  /* background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%); */
 }
 .content-container {
   display: flex;
@@ -214,7 +212,7 @@ box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.8);
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  /* background-color: #f0f0f0; */
+   height: 100vh;
   gap: 2rem;
 }
 .about-text {
@@ -237,7 +235,6 @@ box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.8);
 }
 .cta-buttons button{
   padding: 1rem 2rem;
-  /* border: none; */
   cursor: pointer;
 }
 .btn-primary{
@@ -246,7 +243,8 @@ box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.8);
 }
 .btn-secondary {
   border: 2px solid var(--primary-color);
-  color: var(--primary-color)
+  color: var(--primary-color);
+  background-color: transparent;
 }
 
 /* slideshow styling */
@@ -259,7 +257,7 @@ max-width: 600px;
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 .prev, .next {
   cursor: pointer;
@@ -303,4 +301,35 @@ max-width: 600px;
   .about-text p {
     font-size: 1rem;
   }
+}.testimonials-content {
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-text {
+  margin-bottom: 20px; /* Adds space between the heading and the container */
+  text-align: center; /* Centers the heading text */
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  width: 90%;
+  height: 50vh;
+  gap: 20px; /* Space between the boxes */
+}
+
+.testimonials-container > div {
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
 }
