@@ -211,6 +211,8 @@ p{
   width: 100%;
   height: auto;
   object-fit: cover; /* Keeps the aspect ratio of the video */
+box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.8);
+
 }
 @media (max-width: 768px) {
   .content-container {
