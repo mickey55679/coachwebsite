@@ -23,8 +23,11 @@
 * {
   margin: 10px;
   padding: 0;
-  background-color: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
   box-sizing: border-box;
+}
+html{
+  background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+
 }
 
 .image-container {
@@ -52,6 +55,7 @@ nav ul {
 }
 nav li {
   height: 50px;
+  
 }
 nav a {
   height: 100%;
@@ -62,6 +66,7 @@ nav a {
   color: var(--third-color);
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-normal);
+   border-radius: var(--border-radius-s);
 }
 
 nav a:hover {
@@ -132,6 +137,7 @@ border: none;
   z-index: 999;
   background-color: transparent;
   cursor: pointer;
+  border-radius: var(--border-radius-s);
 }
 
 .hero {
@@ -397,24 +403,23 @@ p {
 .testimonial-section {
   width: 100%;
   text-align: center;
-  padding: 2rem 0; /* Added padding for better spacing */
+   padding: 2rem 0;
 }
 
 .heading-container {
-  margin: 20px 0;       
+margin: 20px 0;      
 }
 
 .heading-container h2 {
-  font-size: 24px;       
-  color: #333;       
+  font-size: var(--font-size-xl);        
 }
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for responsiveness */
-  justify-content: center; /* Center align the cards */
+  flex-wrap: wrap; 
+  justify-content: center; 
   gap: 20px;
-  max-width: 1200px; /* Set a max width for better layout control */
+  max-width: 1200px; 
   margin: 0 auto; 
 }
 
@@ -422,12 +427,13 @@ p {
   width: 280px;
   height: 360px;
   padding: 2rem 1rem;
-  background: #fff;
+  background: black;
   position: relative;
   display: flex;
   align-items: flex-end;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
+   border-radius: var(--border-radius-s); 
 }
 
 .card:hover {
@@ -442,7 +448,7 @@ p {
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 176, 155, 0.5), rgba(150, 201, 61, 1));
+  background: linear-gradient(to bottom, rgba(128, 128, 128, 0.5), rgba(64, 64, 64, 1));
   z-index: 2;
   transition: 0.5s all;
   opacity: 0;
@@ -459,6 +465,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+   border-radius: var(--border-radius-s); 
+  
 }
 
 .card .info {
@@ -477,43 +485,45 @@ p {
 
 .card .info h3 {
   margin: 0;
+  font-size: var(--font-size-l); 
 }
 
 .card .info p {
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: var(--font-size-s);
   margin-top: 8px;
   margin-bottom: 20px;
 }
 
-/* Change hover effect to orange */
+
 .card:hover:before {
-  background: linear-gradient(to bottom, rgba(255, 165, 0, 0.5), rgba(255, 140, 0, 1)); /* Orange gradient */
+  background: linear-gradient(to bottom, rgba(255, 165, 0, 0.5), rgba(255, 140, 0, 1)); 
+   border-radius: var(--border-radius-s); 
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
   .wrapper {
-    flex-direction: column; /* Stack cards vertically on smaller screens */
-    align-items: center; /* Center align cards */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .card {
-    width: 90%; /* Make cards take up more width on smaller screens */
-    max-width: 400px; /* Set a max width for cards */
+    width: 90%; 
+    max-width: 400px; 
   }
 
   .heading-container h2 {
-    font-size: 20px; /* Reduce heading size */
+     font-size: var(--font-size-l);
   }
 }
 
 @media (max-width: 480px) {
   .heading-container h2 {
-    font-size: 18px; /* Further reduce heading size */
+     font-size: var(--font-size-m); 
   }
 
   .card .info p {
-    font-size: 14px; /* Reduce font size for smaller screens */
+ font-size: var(--font-size-s); 
   }
 }
