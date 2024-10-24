@@ -33,19 +33,4 @@ function showSlides(n) {
 //   changeSlide(1);
 // }, 1000); 
 // Toggle between monthly and yearly pricing
-const priceToggle = document.querySelector('#priceToggle');
-const prices = document.querySelectorAll('.price');
 
-priceToggle.addEventListener('change', function () {
-  prices.forEach((price) => {
-    if (this.checked) {
-      // Assume a 20% discount for yearly pricing
-      const currentPrice = price.textContent.match(/\d+/)[0];
-      const yearlyPrice = Math.round(currentPrice * 12 * 0.8);
-      price.innerHTML = `$${yearlyPrice}<span>/year</span>`;
-    } else {
-      // Return to monthly pricing
-      price.innerHTML = `$${price.dataset.monthly}<span>/month</span>`;
-    }
-  });
-});
