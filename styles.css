@@ -224,7 +224,8 @@ p {
 
 .content {
   padding: 50px 15px;
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius-s); 
 }
 
 .content-container {
@@ -283,6 +284,7 @@ p {
   height: auto; 
   gap: 2rem;
   background-color: #f9f9f9; 
+    border-radius: var(--border-radius-s); 
 }
 
 .about-text {
@@ -404,6 +406,8 @@ p {
   width: 100%;
   text-align: center;
    padding: 2rem 0;
+     background-color: #f9f9f9; 
+    border-radius: var(--border-radius-s);
 }
 
 .heading-container {
@@ -472,7 +476,6 @@ margin: 20px 0;
 .card .info {
   position: relative;
   z-index: 3;
-  color: #fff;
   opacity: 0;
   transform: translateY(30px);
   transition: 0.5s all;
@@ -486,6 +489,7 @@ margin: 20px 0;
 .card .info h3 {
   margin: 0;
   font-size: var(--font-size-l); 
+  color: black;
 }
 
 .card .info p {
@@ -493,6 +497,7 @@ margin: 20px 0;
   font-size: var(--font-size-s);
   margin-top: 8px;
   margin-bottom: 20px;
+    color: #fff;
 }
 
 
