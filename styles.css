@@ -34,7 +34,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; 
-  
 }
 html{
 background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
@@ -228,7 +227,7 @@ h1{
     padding: 1.5rem; 
   }
   .cta-button-one {
-    font-size: var(--font-size-s); 
+    font-size: var(--font-size-m); 
     padding: 0.75rem 1.5rem; 
      z-index: 0;
   }
@@ -242,7 +241,6 @@ h1{
 
   .cta-button-one {
     padding: 0.5rem 1rem; 
-    width: 100%; 
     z-index: 0;
   }
 }
