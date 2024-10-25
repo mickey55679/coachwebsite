@@ -22,7 +22,7 @@
   
 }
 html{
-background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
 }
 
 h1, h2, h3, h4{
@@ -241,7 +241,11 @@ h1{
 }
 
 .heading-container h2 {
-   font-size: var(--font-size-xl);       
+   font-size: var(--font-size-xl);
+    color: var(--primary-color);
+  margin-bottom: 20px; 
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);       
 }
 
 .wrapper {
@@ -358,73 +362,6 @@ h1{
  font-size: var(--font-size-s); 
   }
 }
-
-
-
-/* content section  */
-h2 {
-  color: var(--primary-color);
-  margin-bottom: 20px; 
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
-}
-
-p {
-  color: var(--third-color);
-  line-height: 1.6; 
-  font-size: var(--font-size-m);
-}
-
-.content {
-  padding: 50px 15px;
-  border-radius: var(--border-radius-s); 
-}
-
-.content-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start; 
-  flex-wrap: wrap; 
-  gap: 20px;
-  max-width: 1200px; 
-
-}
-
-.text-box {
-  max-width: 500px;
-  flex: 1;
-  padding: 20px;
-  border-radius: var(--border-radius-s);
-
-}
-
-.video-box {
-  flex: 1;
-  max-width: 600px;
-  padding: 0;
-  display: flex; 
-  justify-content: center;
-}
-
-.video-box video {
-  width: 100%;
-  height: auto;
-  object-fit: cover; 
-  border-radius: var(--border-radius-s);
-  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.3); 
-}
-
-@media (max-width: 768px) {
-  .content-container {
-    flex-direction: column; 
-  }
-
-  .text-box, .video-box {
-    max-width: 100%;
-    padding: 10px; 
-  }
-}
-
 /* about section */
 #about-content {
   display: flex;
@@ -457,6 +394,10 @@ p {
   font-weight: var(--font-weight-bold);
   padding: 50px;
   margin: 50px;
+   color: var(--primary-color);
+  margin-bottom: 20px; 
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
   
 }
 
@@ -560,6 +501,78 @@ p {
   }
 }
 
+/* content section  */
+/* h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px; 
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+} */
+.content-title{
+   padding: 50px;
+  margin: 50px;
+   color: var(--primary-color);
+  margin-bottom: 20px; 
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+p {
+  color: var(--third-color);
+  line-height: 1.6; 
+  font-size: var(--font-size-m);
+}
+
+.content {
+  padding: 50px 15px;
+  border-radius: var(--border-radius-s); 
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 20px;
+  max-width: 1200px; 
+
+}
+
+.text-box {
+  max-width: 500px;
+  flex: 1;
+  padding: 20px;
+  border-radius: var(--border-radius-s);
+
+}
+
+.video-box {
+  flex: 1;
+  max-width: 600px;
+  padding: 0;
+  display: flex; 
+  justify-content: center;
+}
+
+.video-box video {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: var(--border-radius-s);
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; 
+  }
+
+  .text-box, .video-box {
+    max-width: 100%;
+    padding: 10px; 
+  }
+}
+
 
 
 /* price section */
@@ -573,6 +586,12 @@ p {
 .pricing-title {
   font-size:var(--font-size-xl); 
   margin-bottom: 30px;
+  padding: 50px;
+  margin: 50px;
+   color: var(--primary-color);
+  margin-bottom: 20px; 
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
 }
 
 .pricing-container {
@@ -654,6 +673,7 @@ p {
 footer {
   padding: 20px; 
   background-color: var(--fifth-color);
+  border-radius: var(--border-radius-s);
 }
 
 .footer-content {
