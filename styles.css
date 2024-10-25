@@ -290,7 +290,7 @@ p {
 }
 
 /* about section */
-.about-content {
+#about-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -299,6 +299,7 @@ p {
   height: auto; 
   gap: 2rem;
   border-radius: var(--border-radius-s); 
+  
 }
 
 .about-text {
@@ -415,7 +416,7 @@ p {
 }
 
 /* testimonials */
-.testimonial-section {
+#testimonial-section {
   width: 100%;
   text-align: center;
    padding: 2rem 0;
@@ -550,7 +551,7 @@ margin: 20px 0;
 
 /* price section */
 
-.pricing-section {
+#pricing-section {
   text-align: center;
   padding: 50px 20px;
 }
