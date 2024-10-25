@@ -1,4 +1,11 @@
 
+ScrollReveal().reveal('.content, .testimonial-section, .about-content, .pricing-section', {
+  duration: 1000,  // Animation duration in milliseconds
+  distance: '50px',  // Distance from original position
+  origin: 'bottom',  // Start the animation from the bottom
+  easing: 'ease-in-out',  // Easing function
+  reset: true  // Repeat animation on scroll up
+});
 
 function showSideBar() {
   //get sidebar element
@@ -33,5 +40,4 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "block";
 }
-	ScrollReveal().reveal(".content");
-  ScrollReveal().reveal(".testimonials-section");
+
