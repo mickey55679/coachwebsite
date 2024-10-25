@@ -171,6 +171,7 @@ h1{
   font-size: var(--font-size-xxl);
   font-weight: var(--font-weight-bold);
   line-height: 1.2; 
+  z-index: 20;
  
 }
 
