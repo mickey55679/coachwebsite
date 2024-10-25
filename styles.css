@@ -28,6 +28,8 @@ background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(22
 
 h1, h2, h3, h4{
   font-family: 'Oswald', sans-serif;
+  margin: 50px;
+  padding: 50px;
 }
 
 .image-container {
@@ -152,8 +154,6 @@ margin: 10px;
   background-color: var(--primary-color);
 }
 
-
-
 #hero {
   display: flex;
   flex-direction: column;
@@ -232,6 +232,7 @@ h2 {
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
+
 }
 
 p {
