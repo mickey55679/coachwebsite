@@ -405,7 +405,7 @@ h1{
   height: auto; 
   gap: 2rem;
   border-radius: var(--border-radius-s); 
-  padding-bottom: 300px;
+  padding-bottom: 100px;
   
 }
 @media (max-width: 768px) {
