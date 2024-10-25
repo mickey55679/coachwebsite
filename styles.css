@@ -19,15 +19,17 @@
     --border-radius-m: 30px;
     --border-radius-circle: 50%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
 
 * {
   margin: 10px;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; 
 }
-html{
-  /* background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%); */
 
+h1, h2, h3, h4{
+  font-family: 'Oswald', sans-serif;
 }
 
 .image-container {
@@ -606,6 +608,7 @@ margin: 20px 0;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background-color: transparent;
 
 }
 
@@ -635,6 +638,29 @@ margin: 20px 0;
     max-width: 100%;
   }
 }
+footer {
+  padding: 20px; 
+  background-color: #555;
+}
+
+.footer-content {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+   
+}
+
+.footer-logo {
+  max-width: 100px; 
+  
+}
+
+.footer-text, .footer-contact {
+  margin: 0; 
+  text-align: center; 
+   color: #fff; 
+}
+
 
 
 
