@@ -23,7 +23,7 @@
   
 }
 html{
-  background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
 }
 
 h1, h2, h3, h4{
@@ -416,7 +416,7 @@ p {
   width: 100%;
   text-align: center;
    padding: 2rem 0;
-background-color: rgba(249, 249, 249, 0.5); 
+/* background-color: rgba(249, 249, 249, 0.5);  */
     border-radius: var(--border-radius-s);
     
 }
