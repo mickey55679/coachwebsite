@@ -264,10 +264,7 @@ h1{
 #testimonial-section {
   width: 100%;
   text-align: center;
-  /* padding: 2rem 0; */
-  padding-bottom: 300px;
-
-    
+  padding-bottom: 300px; 
     
 }
 
@@ -541,11 +538,12 @@ h1{
 
 
 .content-title{
-  margin: 50px;
+  margin: 100px;
     color: var(--third-color);
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
+
 }
 
 p {
@@ -584,6 +582,7 @@ p {
   padding: 0;
   display: flex; 
   justify-content: center;
+    margin-left: 20px;
 }
 
 .video-box video {
