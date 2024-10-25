@@ -1,20 +1,15 @@
 :root {
   --primary-color: #F46C12;
-  --secondary-color: #FFFFFF;
+  --secondary-color: #ddd;
   --third-color: black;
   --fifth-color: #f0f0f0;
-
     --font-size-s: 0.9rem;
     --font-size-m: 1rem;
     --font-size-l: 1.5rem;
     --font-size-xl: 2rem;
     --font-size-xxl: 2.3rem;
-
     --font-weight-normal: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
-
+    --font-weight-bold: 800;
     --border-radius-s: 8px;
 
 }
@@ -160,7 +155,7 @@ background-color: transparent;
 }
 h1{
   padding: 2rem;
-  color: black;
+  color: var(--third-color);
   font-size: var(--font-size-xxl);
   font-weight: var(--font-weight-bold);
   line-height: 1.2; 
@@ -225,7 +220,7 @@ h2 {
 }
 
 p {
-  color: black;
+  color: var(--third-color);
   line-height: 1.6; 
   font-size: var(--font-size-m);
 }
@@ -307,7 +302,7 @@ p {
 
 .about-text p {
  font-size: var(--font-size-m);
-  color: #555;
+  color: var(--third-color);
   line-height: 1.6; 
 }
 
@@ -324,8 +319,8 @@ p {
 }
 
 .btn-primary {
-  background-color: black;
-  color: white;
+  background-color: var(--third-color);
+  color: var(--fifth-color);
 }
 
 .btn-secondary {
@@ -336,7 +331,7 @@ p {
 
 .btn-secondary:hover {
   background-color: var(--primary-color);
-  color: white; 
+  color: var(--fifth-color); 
 }
 
 /* Slideshow styling */
@@ -364,10 +359,9 @@ p {
   top: 50%;
   width: auto;
   padding: 16px;
-  color: white;
+  color: var(--secondary-color);
   font-weight: bold;
   transition: 0.3s ease;
-  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%; 
 }
 
@@ -413,14 +407,16 @@ p {
    padding: 2rem 0;
 background-color: rgba(249, 249, 249, 0.5); 
     border-radius: var(--border-radius-s);
+    
 }
 
 .heading-container {
-margin: 20px 0;      
+margin: 20px 0;   
+   
 }
 
 .heading-container h2 {
-  font-size: var(--font-size-xl);        
+   font-size: var(--font-size-xl);       
 }
 
 .wrapper {
@@ -436,7 +432,7 @@ margin: 20px 0;
   width: 280px;
   height: 360px;
   padding: 2rem 1rem;
-  background: black;
+  background: var(--third-color);
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -494,7 +490,7 @@ margin: 20px 0;
 .card .info h3 {
   margin: 0;
   font-size: var(--font-size-l); 
-  color: black;
+  color: var(--third-color);
 }
 
 .card .info p {
@@ -502,7 +498,7 @@ margin: 20px 0;
   font-size: var(--font-size-s);
   margin-top: 8px;
   margin-bottom: 20px;
-    color: #fff;
+  color: var(--fifth-color);
 }
 
 
@@ -546,7 +542,7 @@ margin: 20px 0;
 }
 
 .pricing-title {
-  font-size:var (--font-size-m); 
+  font-size:var(--font-size-xl); 
   margin-bottom: 30px;
 }
 
@@ -558,8 +554,8 @@ margin: 20px 0;
 }
 
 .pricing-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: var(--fifth-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 8px;
   padding: 20px;
   width: 100%;
@@ -573,9 +569,9 @@ margin: 20px 0;
 }
 
 .pricing-card h3 {
-  font-size: 1.6rem;
+  font-size: var(--font-size-l);
   margin-bottom: 10px;
-  color: #333;
+  color: var(--secondary-color);
 }
 
 .price {
@@ -585,7 +581,7 @@ margin: 20px 0;
 
 .price span {
   font-size: 1rem;
-  color: #999;
+  color: var(--third-color);
 }
 
 .features {
@@ -596,7 +592,7 @@ margin: 20px 0;
 
 .features li {
   padding: 10px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .features li:last-child {
@@ -616,7 +612,7 @@ margin: 20px 0;
 
 .btn-select:hover {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--fifth-color)
 }
 
 .featured {
@@ -628,13 +624,16 @@ margin: 20px 0;
  
 footer {
   padding: 20px; 
-  background-color: #fff;
+  background-color: var(--fifth-color);
 }
 
 .footer-content {
   display: flex; 
   justify-content: space-between; 
   align-items: center;
+}
+.footer-contact a{
+  color: var(--primary-color);
 }
 
 .footer-logo {
