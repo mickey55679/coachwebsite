@@ -40,7 +40,7 @@ h1, h2, h3, h4{
   position: absolute;
   right: 0;
   top: 0;
-  opacity: 50%;
+   opacity: 0.5;
   z-index: 0;
   pointer-events: none;
 }
@@ -136,11 +136,18 @@ background-color: transparent;
   padding: 10px;
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
-  z-index: 999;
   background-color: transparent;
   cursor: pointer;
   border-radius: var(--border-radius-s);
+    position: relative;
+   z-index: 10; 
 }
+.login-logout:hover {
+  color: var(--fifth-color);
+  background-color: var(--primary-color);
+}
+
+
 
 .hero {
   display: flex;
@@ -171,6 +178,10 @@ h1{
   cursor: pointer;
   font-size: var(--font-size-m);
   border-radius: var(--border-radius-s);  
+}
+.cta-button-one:hover {
+  color: var(--fifth-color);
+  background-color: var(--primary-color);
 }
 /* Media Queries for Responsive Design */
 @media (max-width: 800px) {
