@@ -39,7 +39,7 @@ h1, h2, h3, h4{
   position: absolute;
   right: 0;
   top: 0;
-   opacity: 0.5;
+  opacity: 0.5;
   z-index: 0;
   pointer-events: none;
 }
@@ -66,15 +66,14 @@ nav a {
   color: var(--third-color);
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-normal);
-
-    z-index: 5;
-     position: relative;
+  z-index: 5;
+  position: relative;
 }
 
 nav a:hover {
   font-weight: var(--font-weight-semibold);
   color: var(--primary-color);
-    z-index: 6;
+  z-index: 6;
 }
 
 nav li:first-child {
@@ -393,7 +392,7 @@ h1{
 .about-text h2 {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
-  padding: 50px;
+  /* padding: 50px; */
   margin: 50px;
     color: var(--third-color);
   margin-bottom: 20px; 
@@ -502,15 +501,9 @@ h1{
   }
 }
 
-/* content section  */
-/* h2 {
-  color: var(--primary-color);
-  margin-bottom: 20px; 
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
-} */
+
 .content-title{
-   padding: 50px;
+   /* padding: 50px; */
   margin: 50px;
     color: var(--third-color);
   margin-bottom: 20px; 
@@ -602,16 +595,6 @@ p {
   gap: 20px;
 }
 
-/* .pricing-card {
-  background-color: var(--fifth-color);
-  border: 1px solid var(--secondary-color);
-  border-radius: 8px;
-  padding: 20px;
-  width: 100%;
-  max-width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-} */
  .pricing-card {
   position: relative;
   background-color: var(--fifth-color);
