@@ -108,6 +108,7 @@ nav li:first-child {
 display: none;
 border: none;
 background-color: transparent;
+margin: 10px;
 }
 
 .menu-image {
@@ -144,6 +145,7 @@ background-color: transparent;
   border-radius: var(--border-radius-s);
     position: relative;
    z-index: 10; 
+   margin: 10px;
 }
 .login-logout:hover {
   color: var(--fifth-color);
