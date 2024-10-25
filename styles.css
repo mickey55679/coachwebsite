@@ -22,7 +22,7 @@
   
 }
 html{
-background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
 }
 
 h1, h2, h3, h4{
@@ -243,7 +243,7 @@ h1{
 
 .heading-container h2 {
    font-size: var(--font-size-xl);
-    color: var(--primary-color);
+    color: var(--third-color);
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);       
@@ -395,7 +395,7 @@ h1{
   font-weight: var(--font-weight-bold);
   padding: 50px;
   margin: 50px;
-   color: var(--primary-color);
+    color: var(--third-color);
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
@@ -512,7 +512,7 @@ h1{
 .content-title{
    padding: 50px;
   margin: 50px;
-   color: var(--primary-color);
+    color: var(--third-color);
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
@@ -589,7 +589,7 @@ p {
   margin-bottom: 30px;
   padding: 50px;
   margin: 50px;
-   color: var(--primary-color);
+    color: var(--third-color);
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
@@ -696,16 +696,14 @@ p {
 .btn-select {
   color: var(--fifth-color);
   padding: 10px 20px;
-  /* border: 2px solid var(--primary-color); */
   background-color: var(--third-color);
-  border-radius: 5px;
+  border-radius: var(--border-radius-s);
   cursor: pointer;
   transition: background-color 0.3s ease;
 
 }
 
 .btn-select:hover {
-
   color: var(--fifth-color)
 }
 
