@@ -640,6 +640,9 @@ p {
 .pricing-content {
   position: relative;
   z-index: 1; 
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: var(--border-radius-s);
+    padding: 10px;
 }
 
 .pricing-content h2,
@@ -647,7 +650,6 @@ p {
 .pricing-content .features,
 .pricing-content .btn-select
 .price span {
-  background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 5px;
   margin: 5px 0;
