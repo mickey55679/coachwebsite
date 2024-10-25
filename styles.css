@@ -16,7 +16,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
 
 * {
-  /* margin: 10px; */
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; 
@@ -28,8 +27,6 @@ background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(22
 
 h1, h2, h3, h4{
   font-family: 'Oswald', sans-serif;
-  margin: 50px;
-  padding: 50px;
 }
 
 .image-container {
@@ -172,6 +169,8 @@ h1{
   font-weight: var(--font-weight-bold);
   line-height: 1.2; 
   z-index: 20;
+   margin: 50px;
+  padding: 50px;
  
 }
 
@@ -233,7 +232,6 @@ h2 {
   margin-bottom: 20px; 
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
-
 }
 
 p {
@@ -430,13 +428,14 @@ p {
   width: 100%;
   text-align: center;
    padding: 2rem 0;
-
     border-radius: var(--border-radius-s);
     
 }
 
 .heading-container {
-margin: 20px 0;   
+
+ margin: 50px;
+  padding: 50px;
    
 }
 
