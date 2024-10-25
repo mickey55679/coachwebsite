@@ -9,9 +9,9 @@
     --font-size-xl: 2rem;
     --font-size-xxl: 2.3rem;
     --font-weight-normal: 400;
+     --font-weight-semibold: 600;
     --font-weight-bold: 800;
     --border-radius-s: 8px;
-
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
 
