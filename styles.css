@@ -66,13 +66,14 @@ nav a {
   color: var(--third-color);
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-normal);
-   border-radius: var(--border-radius-s);
+
     z-index: 5;
      position: relative;
 }
 
 nav a:hover {
-  background-color: var(--fifth-color);
+  font-weight: var(--font-weight-semibold);
+  color: var(--fifth-color);
     z-index: 6;
 }
 
