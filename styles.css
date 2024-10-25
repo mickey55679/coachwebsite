@@ -16,8 +16,7 @@
     --font-weight-bold: 700;
 
     --border-radius-s: 8px;
-    --border-radius-m: 30px;
-    --border-radius-circle: 50%;
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
 
@@ -26,6 +25,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; 
+  
+}
+html{
+  background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
 }
 
 h1, h2, h3, h4{
@@ -153,6 +156,7 @@ background-color: transparent;
   color: var(--secondary-color); 
   text-align: center;
   padding: 0 1rem;
+  
 }
 h1{
   padding: 2rem;
@@ -228,7 +232,6 @@ p {
 
 .content {
   padding: 50px 15px;
-background-color: rgba(249, 249, 249, 0.5); 
   border-radius: var(--border-radius-s); 
 }
 
@@ -286,8 +289,7 @@ background-color: rgba(249, 249, 249, 0.5);
   padding: 2rem;
   height: auto; 
   gap: 2rem;
- background-color: rgba(249, 249, 249, 0.5); 
-    border-radius: var(--border-radius-s); 
+  border-radius: var(--border-radius-s); 
 }
 
 .about-text {
@@ -537,7 +539,7 @@ margin: 20px 0;
 }
 
 /* price section */
-/* Scoped only to the pricing section */
+
 .pricing-section {
   text-align: center;
   padding: 50px 20px;
@@ -640,14 +642,13 @@ margin: 20px 0;
 }
 footer {
   padding: 20px; 
-  background-color: #555;
+  background-color: #fff;
 }
 
 .footer-content {
   display: flex; 
   justify-content: space-between; 
   align-items: center;
-   
 }
 
 .footer-logo {
@@ -658,7 +659,7 @@ footer {
 .footer-text, .footer-contact {
   margin: 0; 
   text-align: center; 
-   color: #fff; 
+   color: var(--third-color);
 }
 
 
