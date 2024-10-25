@@ -68,10 +68,13 @@ nav a {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-normal);
    border-radius: var(--border-radius-s);
+    z-index: 5;
+     position: relative;
 }
 
 nav a:hover {
   background-color: var(--fifth-color);
+    z-index: 6;
 }
 
 nav li:first-child {
