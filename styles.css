@@ -546,7 +546,7 @@ margin: 20px 0;
 }
 
 .pricing-title {
-  font-size: 2rem; /* Since it's now an h2 */
+  font-size:var (--font-size-m); 
   margin-bottom: 30px;
 }
 
@@ -625,21 +625,7 @@ margin: 20px 0;
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
-  .pricing-container {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 480px) {
-  .pricing-title {
-    font-size: 1.5rem;
-  }
-
-  .pricing-card {
-    max-width: 100%;
-  }
-}
+ 
 footer {
   padding: 20px; 
   background-color: #fff;
