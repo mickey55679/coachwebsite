@@ -749,6 +749,7 @@ footer {
   text-align: center; 
   color: var(--third-color);
   flex: 1; 
+  font-size: var(--font-size-m); 
 }
 
 .footer-contact {
@@ -765,17 +766,17 @@ footer {
 /* Media Queries for Responsive Text and Icons */
 @media (max-width: 768px) {
   .footer-text {
-    font-size: 14px; 
+   font-size: var(--font-size-s); 
   }
 
   .footer-contact a {
-    font-size: 20px; 
+  font-size: var(--font-size-xl); 
   }
 }
 
 @media (max-width: 480px) {
   .footer-text {
-    font-size: 12px; 
+     font-size: var(--font-size-s);
   }
 
   .footer-logo {
@@ -783,7 +784,7 @@ footer {
   }
 
   .footer-contact a {
-    font-size: 16px;
+  font-size: var(--font-size-m); 
   }
 }
 
