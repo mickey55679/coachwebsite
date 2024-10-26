@@ -261,7 +261,8 @@ h1{
 #testimonial-section {
   width: 100%;
   text-align: center;
-  padding-bottom: 300px;   
+  padding-bottom: 300px; 
+    background-color: var(--fifth-color);  
 }
 
 .heading-container {
@@ -552,7 +553,7 @@ p {
 
 .content {
   padding: 2rem; /* Add some padding around the section */
-  background-color: #f9f9f9; /* Optional background color */
+  background-color: var(--fifth-color); /* Optional background color */
 }
 
 .content-title {
