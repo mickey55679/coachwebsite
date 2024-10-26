@@ -736,22 +736,55 @@ footer {
 
 .footer-content {
   display: flex; 
-  justify-content: space-between; 
-  align-items: center;
-}
-.footer-contact a{
-  color: var(--primary-color);
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
 }
 
 .footer-logo {
   max-width: 100px; 
-  
 }
 
-.footer-text, .footer-contact {
+.footer-text {
   margin: 0; 
   text-align: center; 
-   color: var(--third-color);
+  color: var(--third-color);
+  flex: 1; /* Allow the text to take available space */
+}
+
+.footer-contact {
+  display: flex; /* Flex for horizontal alignment of icons */
+  justify-content: flex-end; /* Align icons to the right */
+}
+
+.footer-contact a {
+  color: var(--primary-color);
+  font-size: var(--font-size-l); /* Base font size for icons */
+  margin: 0 10px; /* Add spacing between icons */
+}
+
+/* Media Queries for Responsive Text and Icons */
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: 14px; /* Adjust text size for mobile */
+  }
+
+  .footer-contact a {
+    font-size: 20px; /* Smaller font size for links */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-text {
+    font-size: 12px; /* Even smaller text for very small screens */
+  }
+
+  .footer-logo {
+    max-width: 80px; /* Reduce logo size on small screens */
+  }
+
+  .footer-contact a {
+    font-size: 16px; /* Smaller icons on mobile */
+  }
 }
 
 
