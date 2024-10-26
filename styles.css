@@ -126,7 +126,7 @@ nav li:first-child {
   width: 100%;
 }
 
-.nabar-toggler {
+.navbar-toggler {
 display: none;
 border: none;
 background-color: transparent;
@@ -144,7 +144,7 @@ margin: 10px;
     display: none;
   }
 
-  .nabar-toggler {
+  .navbar-toggler {
     display: block;
   }
 
