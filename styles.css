@@ -736,8 +736,8 @@ footer {
 
 .footer-content {
   display: flex; 
-  justify-content: space-between; /* Space items evenly */
-  align-items: center; /* Center items vertically */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .footer-logo {
@@ -748,42 +748,42 @@ footer {
   margin: 0; 
   text-align: center; 
   color: var(--third-color);
-  flex: 1; /* Allow the text to take available space */
+  flex: 1; 
 }
 
 .footer-contact {
-  display: flex; /* Flex for horizontal alignment of icons */
-  justify-content: flex-end; /* Align icons to the right */
+  display: flex; 
+  justify-content: flex-end; 
 }
 
 .footer-contact a {
   color: var(--primary-color);
-  font-size: var(--font-size-l); /* Base font size for icons */
-  margin: 0 10px; /* Add spacing between icons */
+  font-size: var(--font-size-l); 
+  margin: 0 10px; 
 }
 
 /* Media Queries for Responsive Text and Icons */
 @media (max-width: 768px) {
   .footer-text {
-    font-size: 14px; /* Adjust text size for mobile */
+    font-size: 14px; 
   }
 
   .footer-contact a {
-    font-size: 20px; /* Smaller font size for links */
+    font-size: 20px; 
   }
 }
 
 @media (max-width: 480px) {
   .footer-text {
-    font-size: 12px; /* Even smaller text for very small screens */
+    font-size: 12px; 
   }
 
   .footer-logo {
-    max-width: 80px; /* Reduce logo size on small screens */
+    max-width: 80px; 
   }
 
   .footer-contact a {
-    font-size: 16px; /* Smaller icons on mobile */
+    font-size: 16px;
   }
 }
 
