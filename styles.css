@@ -437,6 +437,9 @@ h1{
  font-size: var(--font-size-m);
   color: var(--third-color);
   line-height: 1.6; 
+   background-color: var(--fifth-color);
+  border-radius: var(--border-radius-s);
+   padding: 10px;
 }
 
 .cta-buttons {
@@ -565,9 +568,12 @@ p {
 
 .text-box {
   max-width: 500px;
+  background-color: var(--fifth-color);
+  border-radius: var(--border-radius-s);
   flex: 1;
   padding: 20px;
   border-radius: var(--border-radius-s);
+   padding: 10px;
 
 }
 
